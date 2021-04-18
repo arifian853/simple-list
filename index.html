@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <title>Simple multi-purpose list with AngularJS</title>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" type="image/x-icon" href="img/programming.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+<body>
+
+<script>
+
+</script>
+<h3 align="center"> Simple multi-purpose list made with Angular JS </h3>
+<br />
+<div class="primary-app" ng-app="myShoppingList" ng-controller="myCtrl">
+  <ul>
+    <li class="list-items" ng-repeat="x in products">{{x}}<span class="x-remove" ng-click="removeItem($index)">X</span></li>
+  </ul>
+  <input type="text" placeholder="Enter things here" name="username" ng-model="addMe">
+  <button ng-click="addItem()">Add</button>
+  <p>{{errortext}}</p>
+</div>
+
+<br />
+<br />
+
+<p class="text-danger warn">If you try to add the same item twice, you will get an error message.</p>
+
+<p class="text-success warn2">Only for learning purpose , use for whatever you want , like to-do list or shopping list :) </p>
+
+<p class="text-primary warn3">Visit <a href="https://arifian853.github.io" target="_blank"> Arifian Saputra</a></p>
+
+</body>
+<footer>Copyright © Arifian Saputra , 2021. All rights reserved.</footer>
+</html>

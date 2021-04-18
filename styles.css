@@ -1,0 +1,134 @@
+html {
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+body {
+    padding: 0;
+    background-color: #9DB5B2;
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px;
+    
+}
+.primary-app {
+    padding: 30px;   
+    border-radius: 5px; 
+    background-color: #2A363B ;
+    color: #9DB5B2;
+    width: 100%;
+}
+
+input[type=text] {   
+    width: 50%;  
+    margin: 8px 0;  
+    margin-left: 30px; 
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid #9DB5B2;   
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+button {   
+    background-color: #9DB5B2;   
+    width: 50%;  
+    color: black;   
+    padding: 15px;   
+    margin: 10px 0px;
+    margin-left: 30px;   
+    border: none;   
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: -1px -7px 28px -10px rgba(0,0,0,0.75); 
+    align-items: center;  
+}   
+button:hover {   
+    opacity: 0.7;   
+} 
+
+.warn {
+    background-color: #2A363B;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    border-left: 7px solid #f44336;
+}
+
+.warn2 {
+    background-color: #2A363B;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    border-left: 7px solid #5cb85c;
+}
+
+.warn3 {
+    background-color: #2A363B;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    border-left: 7px solid #0275d8;
+    text-decoration: none;
+}
+
+.list-items {
+    padding: 10px;
+    font-size: large;
+    background-color: #2A363B;
+    border: 2px solid #9DB5B2;
+    margin: 8px;
+}
+
+.list-items:hover {
+    box-shadow: -1px -7px 28px -10px #9DB5B2 ;
+    background-color: #9DB5B2;
+    opacity: 0.85;
+    color: #2A363B;
+}
+
+.x-remove {
+    text-align: right;
+    cursor: pointer;
+    float: right;
+}
+
+footer {
+    background-color:  #2A363B ;
+    padding: 20px;
+    text-align: center;
+    box-shadow: -1px -7px 28px -10px rgba(0,0,0,0.75);
+    color: #9DB5B2;
+}
+
+  
+
+/*MOBILE*/
+@media screen and (max-width: 768px) {
+    body, html {
+        scroll-behavior: smooth;
+        scroll-snap-type: none;
+        overflow-x: hidden;
+    }
+
+input[type=text] {   
+        width: 100%;  
+        margin: 8px 0;   
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid #9DB5B2;   
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+
+button {   
+    background-color: #9DB5B2;   
+    width: 100%;  
+    color: black;   
+    padding: 15px;   
+    margin: 10px 0px;   
+    border: none;   
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: -1px -7px 28px -10px rgba(0,0,0,0.75)
+}}
