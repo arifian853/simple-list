@@ -60,7 +60,6 @@ button:hover {
 
 .warn2 {
     background-color: #2A363B;
-    box-shadow: -1px -7px 28px -10px rgba(0,0,0,0.75);
     padding: 10px;
     text-align: center;
     align-content: center;
@@ -69,7 +68,6 @@ button:hover {
 
 .warn3 {
     background-color: #2A363B;
-    box-shadow: -1px -7px 28px -10px rgba(0,0,0,0.75);
     padding: 10px;
     text-align: center;
     align-content: center;
