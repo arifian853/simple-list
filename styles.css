@@ -60,21 +60,21 @@ button:hover {
 
 .warn2 {
     background-color: #2A363B;
+    box-shadow: -1px -7px 28px -10px rgba(0,0,0,0.75);
     padding: 10px;
     text-align: center;
     align-content: center;
     border-left: 7px solid #5cb85c;
-    box-shadow: -1px -7px 28px -10px rgba(0,0,0,0.75);
 }
 
 .warn3 {
     background-color: #2A363B;
+    box-shadow: -1px -7px 28px -10px rgba(0,0,0,0.75);
     padding: 10px;
     text-align: center;
     align-content: center;
     border-left: 7px solid #0275d8;
     text-decoration: none;
-    box-shadow: -1px -7px 28px -10px rgba(0,0,0,0.75);
 }
 
 .list-items {
