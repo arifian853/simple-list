@@ -51,8 +51,7 @@ button:hover {
 .warn {
     background-color: #2A363B;
     padding: 10px;
-    text-align: center;
-    align-content: center;
+    box-shadow: -1px -7px 28px -10px rgba(0,0,0,0.75); 
     border-left: 7px solid #f44336;
 }
 
