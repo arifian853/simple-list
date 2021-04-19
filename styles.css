@@ -55,12 +55,16 @@ button:hover {
     border-left: 7px solid #f44336;
 }
 
+.warn:hover {
+    background-color : #9DB5B2 ;
+
 .warn2 {
     background-color: #2A363B;
     padding: 10px;
     text-align: center;
     align-content: center;
     border-left: 7px solid #5cb85c;
+    box-shadow: -1px -7px 28px -10px rgba(0,0,0,0.75);
 }
 
 .warn3 {
@@ -70,6 +74,7 @@ button:hover {
     align-content: center;
     border-left: 7px solid #0275d8;
     text-decoration: none;
+    box-shadow: -1px -7px 28px -10px rgba(0,0,0,0.75);
 }
 
 .list-items {
